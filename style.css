@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(23, 22, 22);
+    color: #fff; */
+}
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+.setipt {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.e label {
+    font-size: 20PX;
+    font-weight: bold;
+}
+.eValue {
+    padding: 3px;
+    width: 60px;
+    text-align: right;
+}
+.vlueinpt p {
+    font-size: 20px;
+    font-weight: 540;
+}
+#ipt {
+    padding: 5px;
+    font-size: 15px;
+}
+.buton {
+    display: flex;
+    justify-content: center;
+}
+#btn, #submit {
+    cursor: pointer;
+    margin: 10px;
+    width: 100px;
+    padding: 5px;
+    display: block;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: rgba(127, 127, 173, 0.45);
+}
+.eTabel {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.creatTabel {
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+    /* width: 1000vh; */
+
+}
+.table {
+    overflow-x: scroll;
+}
+.tableData, .f {
+    width: 50px;
+    padding: 3px;
+    text-align: center;
+}
+.writeTabel {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 18px;
+    /* font-size: 20px; */
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.249);
+}
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+
+    font-weight: bold;
+}
+table th, td {
+    padding: 6px 5px;    
+}
+
+table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 255, 0.258);
+   
+}
+table tbody tr:nth-of-type(even) {
+    background-color: rgba(34, 0, 255, 0.073);
+
+}
+table tbody tr:last-of-type {
+    border-bottom: 1px solid #009879;
+}
